@@ -1,0 +1,40 @@
+.card {
+  background: #1f1f1f;
+  border: 1px solid #ec4d58;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+  max-width: 300px;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  background: #2a2a2a;
+  transform: scale(1.05);
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.card-front h2 {
+  margin: 0.5rem 0;
+  color: #fafafa;
+}
+
+.card-front h3 {
+  color: #ec4d58;
+  font-weight: normal;
+}
+
+.card-back {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
